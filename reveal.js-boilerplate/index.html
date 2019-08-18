@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="<path-to-reveal.js>/css/reset.css">
+		<link rel="stylesheet" href="<path-to-reveal.js>/css/reveal.css">
 		<link rel="stylesheet" href="css/theme/beige.css">
 		<style type="text/css">
 			.contain, .contain div{background-size: contain !important; }
@@ -15,27 +15,25 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<!-- SECTIONS CONTAINER START -->
-
+			    <section> heading 1 </section>
 				<section>
-					<section><h1>Movie inspiration</h1>Metropolis</section>
-					<p>Chelsea Chaderopa</p>
-					<section>Slide B</section>
+			            <section> heading 1 </section>
+					    <section>Slide B</section>
 				</section>
-				<section>Slide 2</section>
+				<section>Slide 2</section> 
 				<section>Slide 3</section>
-				<section class="contain" data-background="http://media.comicbook.com/2017/01/blade-runner-original-replicant-blade-runner-2049-222551.jpg"></section>
+			</section  class="contain" data-background="http://media.comicbook.com/2017/01/blade-runner-original-replicant-blade-runner-2049-222551.jpg"></section>
 				<section class="contain" data-background="img/giphy.gif">IMAGE BG WITH CONTAIN</section>
 				<section data-background="img/giphy.gif">IMAGE BG WITHOUT CONTAIN</section>
 
 
-				<!-- SECTIONS CONTAINER END -->
 			</div>
+			<section>hi there</section>
 		</div>
 
 		<script src="js/reveal.js"></script>
 		<script>
-			Reveal.initialize();
+			Reveal.initialize({});
 		</script>
 	</body>
 </html>
